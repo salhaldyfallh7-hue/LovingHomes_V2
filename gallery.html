@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-ar="المعرض - فندق لوفينغ هومز للكلاب" data-en="Gallery - Loving Homes Dog Hotel">المعرض - فندق لوفينغ هومز للكلاب</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./images/DOOG1.png" type="image/png">
+  <meta name="description" content="معرض صور للكلاب السعيدة وهي تستمتع بمرافق لوفينغ هومز، وقت اللعب، العناية، والمزيد.">
+</head>
+<body>
+  <header>
+    <nav class="container">
+<a href="./index.html" class="logo" data-ar="🐕 لوفينغ هومز" data-en="🐕 Loving Homes" aria-label="لوفينغ هومز الرئيسية">🐕 لوفينغ هومز</a>
+      <ul class="nav-links" role="menubar">
+        <li><a href="./index.html" role="menuitem" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="./video.html" role="menuitem" data-ar="الفيديو" data-en="Video">الفيديو</a></li>
+        <li><a href="./about.html" role="menuitem" data-ar="من نحن" data-en="About Us">من نحن</a></li>
+       <li><a href="./services.html" role="menuitem" data-ar="خدماتنا" data-en="Our Services">خدماتنا</a></li>
+         <li><a href="./packages.html" role="menuitem" data-ar="الباقات" data-en="Packages">الباقات</a></li>
+        <li><a href="./gallery.html" role="menuitem" aria-current="page" data-ar="المعرض" data-en="Gallery">المعرض</a></li>
+        <li><a href="./advice.html" role="menuitem" data-ar="نصائح" data-en="Advice">نصائح</a></li>
+        <li><a href="./contact.html" role="menuitem" data-ar="اتصل بنا" data-en="Contact">اتصل بنا</a></li>
+        <li class="settings-item">
+          <button id="settingsBtn" class="settings-toggle" aria-label="الإعدادات" aria-expanded="false">⚙️</button>
+          <div id="settingsMenu" class="settings-content">
+            <h4 data-ar="تخصيص الموقع" data-en="Customize Site">تخصيص الموقع</h4>
+            <div class="setting-row">
+              <span data-ar="اللغة" data-en="Language">اللغة</span>
+              <select id="langSelect">
+                <option value="ar">العربية</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+            <div class="setting-row">
+              <span data-ar="الوضع المظلم" data-en="Dark Mode">الوضع المظلم</span>
+              <input type="checkbox" id="darkModeToggle">
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="hamburger" aria-label="فتح القائمة" role="button" tabindex="0">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images/DOOG5.png');">
+    <div class="hero-content container">
+      <h1 data-ar="معرض الصور" data-en="Photo Gallery">معرض الصور</h1>
+      <p data-ar="ذكريات جميلة من إقامات الكلاب السعيدة" data-en="Beautiful memories from our happy dogs' stays">ذكريات جميلة من إقامات الكلاب السعيدة</p>
+    </div>
+  </section>
+
+  <section class="container" style="padding: 60px 0;">
+    <h2 class="section-title" data-ar="ضيوفنا السعداء" data-en="Our Happy Guests">ضيوفنا السعداء</h2>
+
+    <div class="gallery-grid" role="region" aria-label="معرض الصور - Photo Gallery">
+      <figure class="gallery-item">
+        <img src="./images/DOOG1.png" alt="كلب سعيد يلعب في المنطقة الخارجية" data-en-alt="Happy dog playing in outdoor area" class="gallery-img" loading="lazy">
+        <figcaption data-ar="كلب سعيد يلعب في المنطقة الخارجية" data-en="Happy dog playing in outdoor area">كلب سعيد يلعب في المنطقة الخارجية</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG2.png" alt="كلب يستمتع بجلسة العناية" data-en-alt="Dog enjoying grooming session" class="gallery-img" loading="lazy">
+        <figcaption data-ar="كلب يستمتع بجلسة العناية" data-en="Dog enjoying grooming session">كلب يستمتع بجلسة العناية</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG3.png" alt="كلاب تسترخي في غرفة مريحة" data-en-alt="Dogs relaxing in cozy room" class="gallery-img" loading="lazy">
+        <figcaption data-ar="كلاب تسترخي في غرفة مريحة" data-en="Dogs relaxing in cozy room">كلاب تسترخي في غرفة مريحة</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG4.png" alt="جرو في مغامرة تمشية في الغابة" data-en-alt="Puppy on forest walk adventure" class="gallery-img" loading="lazy">
+        <figcaption data-ar="جرو في مغامرة تمشية في الغابة" data-en="Puppy on forest walk adventure">جرو في مغامرة تمشية في الغابة</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG5.png" alt="كلب في المساحة العشبية الخاصة" data-en-alt="Dog in private grassy area" class="gallery-img" loading="lazy">
+        <figcaption data-ar="كلب في المساحة العشبية الخاصة" data-en="Dog in private grassy area">كلب في المساحة العشبية الخاصة</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG6.png" alt="وقت اللعب الجماعي في ساحة اللعب الداخلية" data-en-alt="Group playtime in indoor playground" class="gallery-img" loading="lazy">
+        <figcaption data-ar="وقت اللعب الجماعي في ساحة اللعب الداخلية" data-en="Group playtime in indoor playground">وقت اللعب الجماعي في ساحة اللعب الداخلية</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG7.png" alt="كلب يحصل على وجبة خفيفة خاصة" data-en-alt="Dog getting special treat" class="gallery-img" loading="lazy">
+        <figcaption data-ar="كلب يحصل على وجبة خفيفة خاصة" data-en="Dog getting special treat">كلب يحصل على وجبة خفيفة خاصة</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG8.png" alt="نتائج احترافية لصالون الحلاقة" data-en-alt="Professional grooming salon results" class="gallery-img" loading="lazy">
+        <figcaption data-ar="نتائج احترافية لصالون الحلاقة" data-en="Professional grooming salon results">نتائج احترافية لصالون الحلاقة</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="./images/DOOG9.png" alt="كلب يستمتع بخدمة النقل" data-en-alt="Dog enjoying transport service" class="gallery-img" loading="lazy">
+        <figcaption data-ar="كلب يستمتع بخدمة النقل" data-en="Dog enjoying transport service">كلب يستمتع بخدمة النقل</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section style="text-align: center; padding: 60px 0; background: #F8EDEB;">
+    <div class="container">
+      <h2 data-ar="شاركنا المتعة!" data-en="Join the Fun!">شاركنا المتعة!</h2>
+      <p data-ar="احجز مغامرة كلبك القادمة معنا اليوم." data-en="Book your dog's next adventure with us today.">احجز مغامرة كلبك القادمة معنا اليوم.</p>
+
+      <div class="btn-group" style="gap: 1rem; display: flex; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
+        <a href="./packages.html" class="btn" data-ar="عرض الباقات" data-en="View Packages">عرض الباقات</a>
+        <a href="./contact.html" class="btn" style="background: #2C5530;" data-ar="احجز الآن" data-en="Book Now">احجز الآن</a>
+      </div>
+    </div>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+</html>
